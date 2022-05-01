@@ -11,54 +11,30 @@
 }
 
 /* Body */
-
-body {
-    
-}
-
-
-
 /* Header */
-
-
 /* Main */
-
-main {
-               
-}
-
-
 
 /* About Me */
 
-#signature {
-    
-}
-
-
 .about-me {
-    font-size:large;
-    text-align:right;
+    font-size: large;
+    text-align: right;
+    padding-right: 25px;
 }
 
 .about-me .icons {
-    height:32px;
-    max-width:32px;
+    height: 32px;
+    max-width: 32px;
 }
 
-
-.about-me .paragraphs {
-    text-align:left;
-    width:500px;
+.about-me .paragraph {
+    text-align: left;
+    width: 500px;
+    height: 90vh;
     margin: 50px auto;
 }
 
-
-
 /* Portfolio */
-
-
-
 
 /* Footer */
 
@@ -67,13 +43,12 @@ footer {
     bottom: 0px;
 }
 
-.social-logos {
-    width: 32px;
-    list-style-type:none;
-    display:inline;
-    float:right;
+div .social-logos {
+    max-width: 32px;
+    max-height: 32px;
+    list-style-type: none;
+    display: inline;
+    float: left;
     padding: 10px 5px;
-    align-content:center;
-
+    align-content: center;
 }
-
